@@ -44,7 +44,7 @@ const App = () => {
                     <Grid container spacing={4} className="gridContainer" >
                         { Data.map( data => {
                            return( 
-                                <Grid item xs={12} sm={6} lg={4} key={data.id}>
+                                <Grid item xs={12} md={6} lg={4} key={data.id}>
                                     <Card style={{height: '55vh', paddingBottom: '1.4rem'}} >
                                         <CardMedia image={data.media} title="card title" style={{width: '100%', height: '50%'}}/>
                                         <CardContent>
